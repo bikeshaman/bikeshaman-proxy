@@ -8,7 +8,7 @@ app.use('/buying-zone', express.static(path.join(__dirname, '../buying-zone/clie
 
 app.listen(process.env.PORT || 2000);
 
-const { Product } = require('../buying-zone/database/db');
+const { Product } = require('../databases/buying-zone_db');
 const template = require('./template');
 
 /**
