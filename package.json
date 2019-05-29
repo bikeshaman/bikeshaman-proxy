@@ -8,8 +8,8 @@
     "node": ">=11.11.0"
   },
   "scripts": {
-    "start": "node ./server/server.js",
-    "server:dev": "nodemon ./server/server.js",
+    "start": "node ./server/index.js",
+    "server:dev": "nodemon ./server/index.js",
     "build:dev": "webpack --config webpack.config.js --watch --mode=development",
     "pretest": "eslint \"**/*\" --parser-options=jsx:true"
   },
