@@ -8,13 +8,14 @@
     "node": ">=11.11.0"
   },
   "scripts": {
-    "start": "node ./server/server.js",
-    "server:dev": "nodemon ./server/server.js",
-    "build:dev": "webpack --config webpack.config.js --watch --mode=development",
+    "start": "node ./server/index.js",
+    "server:dev": "nodemon ./server/index.js",
     "pretest": "eslint \"**/*\" --parser-options=jsx:true"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -29,8 +30,6 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "eslint-plugin-react-hooks": "^1.6.0"
   }
 }
