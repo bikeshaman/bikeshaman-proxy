@@ -1,3 +1,6 @@
+const _ = require('lodash');
+
+module.exports = _.template(`
 <!DOCTYPE html>
 <html>
 
@@ -16,8 +19,8 @@
 
 <body>
   <!-- App layout -->
-  <div id="app"></div>
-  <div id="buying-zone"></div>
+  <div id="app" style="display: inline-block"></div>
+  <div id="buying-zone" style="display: inline-block"></div>
   <div id="reviews"></div>
 
   <!-- CDN modules -->
@@ -26,9 +29,11 @@
   <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
   <!-- App scripts -->
+  <script> window.__id__ = <%= id %>; </script>
   <script src="http://localhost:3001/bundle.js"></script>
   <script src="http://localhost:3050/bundle.js"></script>
   <script src="http://localhost:3030/app.js"></script>
 </body>
 
 </html>
+`);
