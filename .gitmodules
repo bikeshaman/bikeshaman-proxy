@@ -1,3 +1,6 @@
 [submodule "buying-zone"]
 	path = buying-zone
 	url = https://github.com/hrr38hana/buying-zone.git
+[submodule "andrewpiao1-service"]
+	path = andrewpiao1-service
+	url = https://github.com/hrr38hana/andrewpiao1-service.git

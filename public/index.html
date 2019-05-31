@@ -15,8 +15,18 @@
 </head>
 
 <body>
+  <!-- App layout -->
+  <div id="app"></div>
   <div id="buying-zone"></div>
-  <script src="http://localhost:3001/products/bundle.js"></script>
+
+  <!-- CDN modules -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="http://localhost:3001/bundle.js"></script>
+  <script src="http://localhost:3050/bundle.js"></script>
 </body>
 
 </html>
