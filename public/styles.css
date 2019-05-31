@@ -1,0 +1,17 @@
+#app {
+  margin: 2%;
+  width: 60%;
+  height: 800px;
+}
+
+#buying-zone {
+  position: absolute;
+  width: 25%;
+  height: 800px;
+  margin: 2%;
+}
+
+#reviews {
+  margin: 0 2%;
+  margin-bottom: 12%;
+}
