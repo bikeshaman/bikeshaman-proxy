@@ -4,3 +4,6 @@
 [submodule "andrewpiao1-service"]
 	path = andrewpiao1-service
 	url = https://github.com/hrr38hana/andrewpiao1-service.git
+[submodule "haydenbass13-reviews-module"]
+	path = haydenbass13-reviews-module
+	url = https://github.com/hrr38hana/haydenbass13-reviews-module.git
